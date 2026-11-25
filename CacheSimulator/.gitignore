@@ -1,0 +1,19 @@
+# Build output
+build/
+*.o
+*.d
+*.exe
+*.dll
+*.a
+*.pdb
+
+# Local, per-machine configuration (paths differ on every laptop)
+config.mk
+
+# Editor / OS noise (shared .vscode/ config files ARE committed)
+.vscode/.browse.*
+.vscode/ipch/
+*.code-workspace
+Thumbs.db
+Desktop.ini
+.DS_Store

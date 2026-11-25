@@ -1,0 +1,16 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Windows MinGW-w64",
+      "includePath": [
+        "${workspaceFolder}/include",
+        "${env:RAYLIB_DIR}/include"
+      ],
+      "defines": [],
+      "compilerPath": "gcc",
+      "cStandard": "c11",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ]
+}
